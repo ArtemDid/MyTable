@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Моя таблица</title>
+
+    <script type="text/javascript" src="/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=BHQSIk8W3r5PA3BUFcU4Lm6y2vVWlLlplMuvdi_hX0OdDd9D79_hiLzBl8RWlklK_9AuusnJFrIKWPuBoTlVioN-C8mCmSOcpBJo69moMlGa5FeqGW2baQI6w-sqXScBHb6oqBQMkjbH-kTf566FX3g6ei9Do16UovKwn7WdKzObaeQK5bXzXlJzy6M4XHeuSxSbGwsa7iylG6fQ6ikxvwoJT_MWORObz6TQmgwM2rrpX1d7ltzFdlE-hTiZEu8Gz0M8H8Dv0ovU4wTz9pLANYLq2Rxhx1iGG2cy_7sQyvrT5IwHF1TAn5RJu4YQZXjyr13mBYcn4WW6WBi-ee8rTw" charset="UTF-8"></script><style>
+        button,
+        input {
+            width: 150px;
+            margin-bottom: 5px;
+            cursor: pointer;
+        }
+        table{
+            border: 1px solid rgb(1, 10, 10);
+            border-collapse: collapse;
+            width: 600px;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid tomato;
+            padding: 5px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Значяение</th>
+                <th>Фото</th>
+                <th>Действия</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="font-weight: bold;">Производитель</td>
+                <td>Hyundai</td>
+                <td rowspan="4">
+                    <img src="hold.jpeg" 
+                    alt="Фотка холодильника" 
+                    />
+                </td>
+    
+                <td rowspan="4">
+                    <input type="button" value="Сохранить" /><br />
+                    <button>Удалить</button><br />
+                    <button>Редактировать</button><br />
+                    <input type="text" />
+                </td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold;">Марка</td>
+                <td>SuperFrost</td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold;"> Модель</td>
+                <td>SF1000</td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold;">Серийный номер</td>
+                <td>SF1235FD</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>#</th>
+                <th>Значяение</th>
+                <th>Фото</th>
+                <th>Действия</th>
+            </tr>
+        </tfoot>
+    </table>
+
+    <table>
+        <!--Header-->
+        <tr>
+            <td style="text-align: center; font-weight: bold;">#</td>
+            <td style="text-align: center; font-weight: bold;">Значение</td>
+            <td style="text-align: center; font-weight: bold;">Фото</td>
+            <td style="text-align: center; font-weight: bold;">Действия</td>
+        </tr>
+
+        <!--Begine of body-->
+        <tr>
+            <td style="font-weight: bold;">Производитель</td>
+            <td>Hyundai</td>
+            <td rowspan="4">
+                <img src="https://img.mvideo.ru/Pdb/20061447b.jpg" 
+                alt="Фотка холодильника" 
+                />
+            </td>
+
+            <td rowspan="4">
+                <input type="button" value="Сохранить" /><br />
+                <button>Удалить</button><br />
+                <button>Редактировать</button><br />
+                <input type="text" />
+            </td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold;">Марка</td>
+            <td>SuperFrost</td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold;"> Модель</td>
+            <td>SF1000</td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold;">Серийный номер</td>
+            <td>SF1235FD</td>
+        </tr>
+        <!--End of body-->
+        <!--Footer-->
+        <tr>
+            <td style="text-align: center; font-weight: bold;">#</td>
+            <td style="text-align: center; font-weight: bold;">Значение</td>
+            <td style="text-align: center; font-weight: bold;">Фото</td>
+            <td style="text-align: center; font-weight: bold;">Действия</td>
+        </tr>
+    </table>
+</body>
+
+</html>
